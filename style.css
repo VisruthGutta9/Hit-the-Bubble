@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    width:100%;
+    height:100%;
+    background-color: rgb(180, 229, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    width:80%;
+    height:75%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    height:80px;
+    background-color: rgb(9, 177, 244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 27%;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+h1{
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height:35px;
+    width: 40px;
+    padding:10px;
+    border-radius: 5px;
+    color:rgb(9, 177, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.body{
+    width: 100%;
+    height:calc(100% - 80px);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    gap: 13px;
+}
+.bubble{
+    border-radius:100px;
+    height:40px;
+    width:40px;
+    background-color: rgb(9, 177, 244);
+    color:white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.bubble:hover{
+    background-color: rgb(4, 90, 124);
+    font-size: 20px;
+}
+h2{
+    color:rgb(9, 177, 244);
+}
